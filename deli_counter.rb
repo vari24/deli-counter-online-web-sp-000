@@ -16,7 +16,7 @@ def take_a_number(katz_deli, customer)
     puts "Welcome, #{customer}. You are number 1 in line."
   else
     katz_deli.push (customer)
-    puts "Welcome, #{person}. You are number 4 in line."
+    puts "Welcome, #{customer}. You are number 4 in line."
   end
 end
 
