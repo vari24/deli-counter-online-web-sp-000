@@ -10,17 +10,6 @@ def line(katz_deli)
  end
 end
 
-def line(katz_deli)
-  if katz_deli.empty? == false
-    katz_deli.each_with_index do |value, index|
-
-      puts "The line is currently: #{index+1}. #{value}"
-    end
-  elsif katz_deli.empty? == true
-    puts "The line is currently empty."
-  end
-end
-
 def now_serving(katz_deli)
   puts katz_deli.length == 0 ? "There is nobody waiting to be served!" : "Currently serving #{katz_deli.shift}."
 end
