@@ -10,6 +10,15 @@ def line(katz_deli)
  end
 end
 
+def take_a_number(katz_deli, customer)
+  if katz_deli.empty?
+    katz_deli.push (customer)
+    puts "Welcome, #{customer}. You are number 1 in line."
+  else
+    katz_deli.push (customer)
+    puts "Welcome, #{person}. You are number 4 in line."
+  end
+end  
 
 def now_serving (katz_deli)
   if katz_deli.empty? == true
