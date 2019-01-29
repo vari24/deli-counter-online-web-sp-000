@@ -10,9 +10,6 @@ def line(katz_deli)
  end
 end
 
-def now_serving(katz_deli)
-  puts katz_deli.length == 0 ? "There is nobody waiting to be served!" : "Currently serving #{katz_deli.shift}."
-end
 
 def now_serving (katz_deli)
   if katz_deli.empty? == true
