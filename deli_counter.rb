@@ -18,7 +18,7 @@ def take_a_number(katz_deli, customer)
     katz_deli.push (customer)
     puts "Welcome, #{person}. You are number 4 in line."
   end
-end  
+end
 
 def now_serving (katz_deli)
   if katz_deli.empty?
